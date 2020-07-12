@@ -1,4 +1,4 @@
-#Sun Jan 12 23:52:03 SAST 2020
-base.0=/Users/ryangodlonton-shaw/Documents/development/ChuckNorris/apicallsboss/build/app/intermediates/transforms/dexMerger/debug/0
+#Sun Jul 12 16:17:56 WAT 2020
+base.0=/Users/andrew/Desktop/workspace/Others/apicallsboss/build/app/intermediates/transforms/dexMerger/debug/0
 path.0=classes.dex
 renamed.0=classes.dex

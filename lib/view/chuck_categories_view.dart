@@ -23,7 +23,6 @@ class _GetChuckyState extends State<GetChuckCategories> {
     return Scaffold(
       appBar: AppBar(
         elevation: 0.0,
-        automaticallyImplyLeading: false,
         title: Text('Chucky Categories',
             style: TextStyle(color: Colors.white, fontSize: 20)),
         backgroundColor: Color(0xFF333333),

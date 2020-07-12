@@ -28,7 +28,7 @@ class ChuckCategoryBloc {
       chuckListSink.add(Response.completed(chuckCats));
     } catch (e) {
       chuckListSink.add(Response.error(e.toString()));
-      print(e);
+      // print(e);
     }
   }
 

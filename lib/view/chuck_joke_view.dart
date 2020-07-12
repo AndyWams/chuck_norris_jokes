@@ -24,12 +24,6 @@ class _ShowChuckyJokeState extends State<ShowChuckyJoke> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(
-        elevation: 0.0,
-        title: Text('Chucky Joke',
-            style: TextStyle(color: Colors.white, fontSize: 20)),
-        backgroundColor: Color(0xFF333333),
-      ),
       backgroundColor: Color(0xFF333333),
       body: RefreshIndicator(
         onRefresh: () => _bloc.fetchChuckyJoke(widget.selectedCategory),
@@ -75,6 +69,13 @@ class ChuckJoke extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return new Scaffold(
+      appBar: AppBar(
+        elevation: 0.0,
+        automaticallyImplyLeading: true,
+        title: Text('Chucky Joke',
+            style: TextStyle(color: Colors.white, fontSize: 20)),
+        backgroundColor: Color(0xFF333333),
+      ),
       body: new Container(
         constraints: new BoxConstraints.expand(),
         color: new Color(0xFF736AB7),

@@ -28,7 +28,7 @@ class ChuckBloc {
       if (_isStreaming) chuckDataSink.add(Response.completed(chuckJoke));
     } catch (e) {
       if (_isStreaming) chuckDataSink.add(Response.error(e.toString()));
-      print(e);
+      // print(e);
     }
   }
 
